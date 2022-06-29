@@ -4,7 +4,8 @@
 }
 
 .footer,
-.all_in {
+.all_in,
+.gallery {
   width: 100%;
   height: auto;
   background-color: #1b1b1b;
@@ -152,4 +153,10 @@ a {
 }
 .contact {
   color: #272142 !important;
+}
+.galleryHeader {
+  text-align: center;
+  font-size: 72px;
+  letter-spacing: 5px;
+  font-weight: 700;
 }
