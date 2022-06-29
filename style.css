@@ -1,8 +1,20 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   color: white;
 }
-
+:root {
+  --secondary-color: #f65282;
+  --weight: 700;
+}
 .footer,
 .all_in,
 .gallery,
@@ -50,9 +62,10 @@ li {
 }
 .main h1 {
   font-size: 72px;
-  font-weight: 700;
+  font-weight: var(--weight);
   line-height: 84px;
   letter-spacing: 3px;
+  margin: 0;
 }
 .main p {
   font-size: 18px;
@@ -97,6 +110,7 @@ li {
   .nav h4 {
     display: none;
   }
+
   .main h1 {
     font-size: 50px;
   }
@@ -112,15 +126,15 @@ li {
   }
 }
 .mainAbout h4 {
-  color: #f65282;
+  color: var(--secondary-color);
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--weight);
   letter-spacing: 2px;
   padding-bottom: 32px;
 }
 .mainAbout h1 {
   font-size: 64px;
-  font-weight: 700;
+  font-weight: var(--weight);
   letter-spacing: 2px;
 }
 .mainAbout p {
@@ -146,10 +160,11 @@ li {
   background-color: #2d2727;
   margin-bottom: 64px;
 }
+
 .active,
 a:hover {
   text-decoration: none;
-  color: #f65282 !important;
+  color: var(--secondary-color) !important;
   transition: 0.7s;
 }
 a {
@@ -163,7 +178,7 @@ a {
   text-align: center;
   font-size: 72px;
   letter-spacing: 5px;
-  font-weight: 700;
+  font-weight: var(--weight);
 }
 .contactMe {
   text-align: center;
@@ -171,12 +186,12 @@ a {
 .contactMe h5 {
   padding-top: 40px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: var(--weight);
   letter-spacing: 2px;
-  color: #f65282;
+  color: var(--secondary-color);
 }
 .contactMe p {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: var(--weight);
   line-height: 30px;
 }
