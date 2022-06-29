@@ -65,7 +65,7 @@ li {
   font-size: 14px;
 }
 .main {
-  margin-top: 150px;
+  margin-top: 220px;
 }
 .photos {
   padding: 70px 70px 0;
@@ -149,4 +149,7 @@ a:hover {
 a {
   color: white !important;
   text-decoration: none !important;
+}
+.contact {
+  color: #272142 !important;
 }
