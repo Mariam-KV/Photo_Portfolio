@@ -111,8 +111,9 @@ li {
     display: none;
   }
 
-  .main h1 {
-    font-size: 50px;
+  .main h1,
+  .galleryHeader {
+    font-size: 40px !important;
   }
   .photos .row {
     justify-content: center;
