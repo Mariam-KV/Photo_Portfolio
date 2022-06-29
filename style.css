@@ -5,11 +5,13 @@
 
 .footer,
 .all_in,
-.gallery {
+.gallery,
+.makeR {
   width: 100%;
   height: auto;
   background-color: #1b1b1b;
 }
+
 .header {
   height: 100vh;
   max-width: 100%;
@@ -20,6 +22,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.main {
+  height: 350px;
 }
 .ph {
   height: 100vh;
@@ -41,6 +46,7 @@ li {
   letter-spacing: 3px;
   font-size: 24px !important;
   line-height: 28px !important;
+  padding-bottom: 25px;
 }
 .main h1 {
   font-size: 72px;
