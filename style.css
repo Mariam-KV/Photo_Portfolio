@@ -160,3 +160,18 @@ a {
   letter-spacing: 5px;
   font-weight: 700;
 }
+.contactMe {
+  text-align: center;
+}
+.contactMe h5 {
+  padding-top: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #f65282;
+}
+.contactMe p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
