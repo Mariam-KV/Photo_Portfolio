@@ -21,11 +21,6 @@ body {
   height: auto;
   background-color: #1b1b1b;
 }
-.footer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-}
 
 .nav {
   position: absolute;
@@ -68,7 +63,6 @@ body {
   background-image: url("photos/bg.png");
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .col-left {
@@ -96,6 +90,7 @@ body {
   margin: 0;
   cursor: pointer;
 }
+
 .gallery {
   text-align: center;
   padding-top: 40px;
@@ -133,6 +128,7 @@ i {
   font-size: 26px;
   margin: 0 20px;
 }
+
 .down p {
   opacity: 0.7;
   font-size: 13px;
@@ -212,6 +208,7 @@ i {
 .little:hover {
   transform: none;
 }
+
 .active,
 a:hover {
   text-decoration: none;
@@ -301,7 +298,7 @@ img:hover {
 .main {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 17%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
