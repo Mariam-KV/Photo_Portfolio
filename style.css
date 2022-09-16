@@ -22,6 +22,9 @@ body {
   background-color: #1b1b1b;
 }
 
+.footer2 {
+  background-color: #1b1b1b;
+}
 .nav {
   position: absolute;
   left: 140px;
@@ -63,6 +66,7 @@ body {
   background-image: url("photos/bg.png");
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .col-left {
@@ -223,10 +227,11 @@ a {
   color: #272142 !important;
 }
 .galleryHeader {
+  margin: 0;
   text-align: center;
   font-size: 72px;
   letter-spacing: 5px;
-  margin-top: 200px;
+  padding-top: 200px;
   font-weight: var(--weight);
 }
 
@@ -298,7 +303,7 @@ img:hover {
 .main {
   position: absolute;
   left: 50%;
-  top: 17%;
+  top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
